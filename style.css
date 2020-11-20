@@ -2,6 +2,7 @@ body{
     height: 100%;
     width: 100%;
     font-family: 'Roboto', sans-serif;
+    margin: 0px;
 }
 
 .wrapperTop{
@@ -9,6 +10,7 @@ body{
     background-repeat: no-repeat;
     background-size: cover;
     height: 100%;
+    width: 100%;
 }
 
 .navbar{
@@ -25,17 +27,18 @@ body{
 
 #kastLogo{
     position: fixed;
-    left: 1.5%;
-    top: -1%;
+    left: 1.75%;
+    top: -1.5%;
     height: 30px;
 }
 
 ul#dropdownMenu{
     position: fixed;
-    top: 12px;
+    top: 15px;
+    left: 2%;
     width: 100%;
     font-family: 'Roboto', sans-serif;
-    font-weight: bold;
+    
     background: transparent;
     color: white;
 }
@@ -128,6 +131,7 @@ ul.dropdownSubmenu li a:hover{
 .openKast{
     background-color: transparent;
     border: solid 1px white;
+    font-family:  'Roboto', sans-serif;
     font-size: 16px;  
     position: fixed;
     min-width: 90px; 
@@ -157,12 +161,15 @@ ul.dropdownSubmenu li a:hover{
 
 h2{
     font-family: 'Roboto', sans-serif;
-    font-size: 50px;
-    font-weight: bold;
+    font-size: 48px;
+    font-weight: 500;
+    line-height: 54px;
 }
 
 .infoSection p{
-    font-size: 21px;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 28px;
 }
 
 .orangeOpenKast{
@@ -171,6 +178,7 @@ h2{
     border-radius: 3%;
     height: 45px;
     width: 200px;
+    font-family: 'Roboto', sans-serif;
     font-size: large;
     font-weight: bold;
     text-align: center;
@@ -192,38 +200,63 @@ h2{
 
 .wired{
     grid-column-start: 1;
+    grid-row: 1;
 }
 
 .nerdist{
     grid-column-start: 2;
+    grid-row: 1;
 }
 
 .yahooFinance{
     grid-column-start: 3;
+    grid-row: 1;
+}
+
+.eveningStandard{
+    grid-column-start: 1;
+    grid-row: 2;
+}
+
+.bbc{
+    grid-column-start: 2;
+    grid-row: 2;
+}
+
+.dailyMail{
+    grid-column-start: 3;
+    grid-row: 2;
 }
 
 .featuredSection{
     margin: 100px 0px 100px 0px;
+    line-height: 36px;
 }
 
 #featured{
     text-align: center;
-    font-family: Arial, Helvetica, sans-serif;
-    font-size: 25px;
+    font-family: 'Roboto', sans-serif;
+    font-size: 24px;
     font-weight: 500;
+    line-height: 36px;
 }
 
 #quote{
-    color: black;
+    color: #434146;
     font-family: 'Roboto', sans-serif;
     text-align: center;
     font-size: 20px;
+    font-weight: 400;
+    line-height: 36px;
 }
 
 #endQuote{
-    color: black;
+    color: #434146;
     font-family: 'Roboto', sans-serif;
     text-align: right;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 29px;
     padding: 0px 300px 0px 0px;
 }
     
@@ -238,11 +271,14 @@ h2{
 }
 
 #whatIsKast{
-    font-size: 50px;
-    font-weight: bold;
+    font-size: 48px;
+    font-weight: 500;
+    line-height: 48px;
 }
 
 .kastInfo{
     font-size: 20px;
-    margin: 4% 21.5% 0% 21.5%;
+    font-weight: 400;
+    line-height: 34px;
+    margin: 4% 22% 0% 22%;
 }
