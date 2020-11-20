@@ -30,6 +30,11 @@ body{
     left: 1.75%;
     top: -1.5%;
     height: 30px;
+    transition: .3s ease;
+}
+
+#kastLogo:hover{
+    transform: scale(1.1)
 }
 
 ul#dropdownMenu{
